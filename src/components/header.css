@@ -1,0 +1,30 @@
+/* src/components/Header.css */
+
+/**
+ * File name: Navigation.css
+ * Student's Name: Jiyanne Kate Tuazon
+ * Student ID: 301320584
+ * Date: 09/27/24
+ */
+ 
+ .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ffffff;
+  }
+  .logo {
+    width: 50px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  

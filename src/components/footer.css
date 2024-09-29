@@ -1,0 +1,21 @@
+/* src/components/Footer.css */
+
+/**
+ * File name: Navigation.css
+ * Student's Name: Jiyanne Kate Tuazon
+ * Student ID: 301320584
+ * Date: 09/27/24
+ */
+ 
+ .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  

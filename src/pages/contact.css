@@ -1,0 +1,102 @@
+/* src/pages/Contact.css */
+
+/**
+ * File name: Navigation.css
+ * Student's Name: Jiyanne Kate Tuazon
+ * Student ID: 301320584
+ * Date: 09/27/24
+ */
+
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .contact-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .contact-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #000; 
+    margin-bottom: 20px;
+  }
+  
+  .contact-panel {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/ 
+  }
+  
+  .contact-panel h2 {
+    font-size: 1.5em;
+    color: #05aba9; 
+    margin-bottom: 10px;
+  }
+  
+  .contact-panel p {
+    font-size: 1.1em;
+    color: #666; 
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #666; 
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .submit-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color:  #f9a79b;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color:  #fbcab9;
+    color: #fff;
+  }
